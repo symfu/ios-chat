@@ -331,6 +331,8 @@
 		9029D0FF21C5D7930002EBAA /* WFCUCreateChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9029D0FD21C5D7930002EBAA /* WFCUCreateChannelViewController.m */; };
 		90414AFC21AF5A93008EF915 /* WFCUConversationSearchTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 90414AFA21AF5A93008EF915 /* WFCUConversationSearchTableViewCell.h */; };
 		90414AFD21AF5A93008EF915 /* WFCUConversationSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90414AFB21AF5A93008EF915 /* WFCUConversationSearchTableViewCell.m */; };
+		90FA4A212244650F001EAC1B /* TTTAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FA4A1F2244650E001EAC1B /* TTTAttributedLabel.h */; };
+		90FA4A222244650F001EAC1B /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA4A202244650E001EAC1B /* TTTAttributedLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -660,6 +662,8 @@
 		9029D0FD21C5D7930002EBAA /* WFCUCreateChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFCUCreateChannelViewController.m; path = WFChatUIKit/CreateGroup/ViewController/WFCUCreateChannelViewController.m; sourceTree = SOURCE_ROOT; };
 		90414AFA21AF5A93008EF915 /* WFCUConversationSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCUConversationSearchTableViewCell.h; sourceTree = "<group>"; };
 		90414AFB21AF5A93008EF915 /* WFCUConversationSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCUConversationSearchTableViewCell.m; sourceTree = "<group>"; };
+		90FA4A1F2244650E001EAC1B /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		90FA4A202244650E001EAC1B /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -884,6 +888,7 @@
 		2F550EF2217F5CC000F56C26 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				90FA4A1E2244650E001EAC1B /* TTTAttributedLabel */,
 				2F550EF3217F5CC000F56C26 /* ChatInputBar */,
 				2F550F1F217F5CC100F56C26 /* CCHMapClusterController */,
 				2F550F3C217F5CC100F56C26 /* Pinyin */,
@@ -1472,6 +1477,15 @@
 			path = frameworks;
 			sourceTree = "<group>";
 		};
+		90FA4A1E2244650E001EAC1B /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				90FA4A1F2244650E001EAC1B /* TTTAttributedLabel.h */,
+				90FA4A202244650E001EAC1B /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1493,6 +1507,7 @@
 				2F551211217F5CC300F56C26 /* WFCUContactListViewController.h in Headers */,
 				2F55122A217F5CC300F56C26 /* WFCUUtilities.h in Headers */,
 				2F3A6C1C219EE941009A8B4B /* WFCUStickerItem.h in Headers */,
+				90FA4A212244650F001EAC1B /* TTTAttributedLabel.h in Headers */,
 				2F5510B0217F5CC200F56C26 /* WFCUGroupMemberTableViewController.h in Headers */,
 				2F551100217F5CC200F56C26 /* CCHMapClusterControllerUtils.h in Headers */,
 				2F9CE42021BFE63C005E1BE1 /* WFCUChannelProfileViewController.h in Headers */,
@@ -1825,6 +1840,7 @@
 				2F551225217F5CC300F56C26 /* WFCUFriendRequestTableViewCell.m in Sources */,
 				2F5510FA217F5CC200F56C26 /* CCHMapClusterControllerDebugPolygon.m in Sources */,
 				2F551094217F5CC200F56C26 /* WFCUCallSummaryCell.m in Sources */,
+				90FA4A222244650F001EAC1B /* TTTAttributedLabel.m in Sources */,
 				2F5510EE217F5CC200F56C26 /* CCHMapTreeUtils.m in Sources */,
 				2F5510A9217F5CC200F56C26 /* WFCUMessageModel.m in Sources */,
 				2F551194217F5CC200F56C26 /* UIView+SDExtension.m in Sources */,
